@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-33TJZV1J5P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-33TJZV1J5P');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Leonardo's Portfolio</title>
+</head>
+
+<body>
+    <header id="nav">
+        <nav class="navbar">
+            <a href="#" id="logo">My Logo</a>
+            <a href="#" class="menu-icon" id="hbg"><img src="images/Union.png" alt="menu bar"></a>
+            <ul class="menu">
+                <li class="menu-items"><a href="#works-section">Portfolio</a></li>
+                <li class="menu-items"><a href="#about">About</a></li>
+                <li class="menu-items"><a href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="mobile_menu">
+        <img src="images/X.png" alt="menu bar" id="x_btn">
+        <ul id="mobile_ul">
+            <li><a id="mobile_prt" href="#works-section">Portfolio</a></li>
+            <li><a id="mobile_abt" href="#about">About</a></li>
+            <li><a id="mobile_cnt" href="#contact-me">Contact</a></li>
+        </ul>
+    </section>
+    <section id="headline">
+        <div class="div1"><h1>I'm Leonardo<br>Glad to see you!</h1></div>
+        <div class="div2"><p class="subtitle">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p></div>
+        <div class="div3"><a href="#"><h3 class="connect-link">LET'S CONNECT</h3></a></div>
+        <ul class="social">
+            <li><a href="#"><img src="images/twitter-bird.svg" alt="twitter logo"></a></li>
+            <li><a href="#"><img src="images/linkedin.svg" alt="linkedin logo"></a></li>
+            <li><a href="#"><img src="images/m.svg" alt="medium logo"></a></li>
+            <li><a href="#"><img src="images/cat.svg" alt="github logo"></a></li>
+            <li><a href="#"><img src="images/hand.svg" alt="hand logo"></a></li>
+        </ul>
+    </section>
+    <section>
+        <ul class="works" id="portfolio"></ul>
+    </section>
+    <section id="about">
+        <div>
+            <h1>About Myself</h1>
+            <p class="subtitle">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+            <a href="#"><h3 class="connect-link">LET'S CONNECT</h3></a>
+            <ul class="social">
+                <li><a href="#"><img src="images/twitter-bird.svg" alt="twitter logo"></a></li>
+                <li><a href="#"><img src="images/linkedin.svg" alt="linkedin logo"></a></li>
+                <li><a href="#"><img src="images/m.svg" alt="medium logo"></a></li>
+                <li><a href="#"><img src="images/cat.svg" alt="github logo"></a></li>
+                <li><a href="#"><img src="images/hand.svg" alt="hand logo"></a></li>
+            </ul>
+            <button class="about-btn" type="button">Get my resume</button>
+        </div>
+        <ul class="tech-list">
+            <li class="tech-title" id="languages">
+                <p>Languages</p>
+                <a href="#"><img src="images/arrowDown.png" class="arrow-opened" alt="arrow image"></a>
+            </li>
+            <li class="languages-list">
+                <div class="languages-item"><img src="images/JsLogo.png" alt="javascript logo"><p>JavaScript</p></div>
+                <div class="languages-item"><img src="images/HtmlLogo.png" alt="html logo"><p>HTML</p></div>
+                <div class="languages-item"><img src="images/CssLogo.png" alt="css logo"><p>CSS</p></div>
+            </li>
+            <li class="tech-title">
+                <p>Frameworks</p>
+                <a href="#"><img src="images/arrowRight.png" class="arrow-closed" alt="arrow image"></a>
+            </li>
+            <li><img src="images/SeparatorBottom.png" class="division-bar" alt="division bar"></li>
+            <li class="tech-title">
+                <p>Skills</p>
+                <a href="#"><img src="images/arrowRight.png" class="arrow-closed" alt="arrow image"></a>
+            </li>
+            <li><img src="images/SeparatorBottom.png" class="division-bar" id="last-bar" alt="division bar"></li>
+        </ul>
+    </section>
+    <section id="contact-me">
+        <h1 id="contact-title">Contact Me</h1>
+        <p id="contact-subtitle">If you have an application you are interested in developing, a feature that you need build or a project that needs coding I'd love to help with it</p>
+        <form id="input-box" method="post">
+            <input type="text" placeholder="Name" maxlength="30" name="name" required>
+            <input type="email" placeholder="email" name="email" required>
+            <textarea placeholder="write your message here" maxlength="500" name="message" required></textarea>
+            <div id="email-error">
+                <p>Please write an email in lowercase.</p>
+            </div>
+            <button class="contact-btn" type="submit">Get In Touch</button>
+        </form>
+    </section>
+    <script src="file.js"></script>
+</body>
+</html>
